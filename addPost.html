@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Add Post</title>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="addPost_style.css" type="text/css">
+    <script src="addPost_script.js"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <div class="dropdown">
+            <a href="#" class="menu-btn"><span>≡</span></a>
+            <!--dropdown list-->
+            <nav class="menu-content">
+                <ul>
+                    <li><a href="index.php">Home Page</a></li>
+                    <li><a href="viewBlog.php">View Blog</a></li>
+                    <li><a href="#contact">Contact me!</a></li>
+                    <li><a href="logout.php">LogOut</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <figure>
+            <img src="logo.png" alt="Fiona Ampofo Logo" width="100px">
+        </figure>
+        <h1 id="blog">Blog</h1>
+    </header>
+
+    <!--SIXTH PAGE-->
+    <!--blog-->
+    <article id="pg-6" class="page-size">
+        <form id="post_form" action="addEntry.php" method="post" onreset="toClear(event)">
+
+            <h3>Add a Blog Post</h3>
+            
+            <div class="data_2">
+                <!--TITLE-->
+                <label for="title">Title</label><br>
+                <input type="text" id="title" name="title">
+            </div>
+
+            <div class="data_2">
+                <!--USER TEXT-->
+                <label for="subject">Post</label><br>
+                <textarea id="subject" name="subject" placeholder="Add your post here!"></textarea>
+            </div>
+
+            <div id="blog-btn">
+                <!--Post & Clear Form Buttons-->
+                <button type="submit" value="Preview" id="pre" onclick="checkFields(event, this.id)" >PREVIEW</button>
+                <button type="submit" value="Submit" id="sub" onclick="checkFields(event, this.id)">SUBMIT</button>
+                <button type="reset" value="Reset" id="clear">CLEAR</button>
+            </div>           
+        </form> 
+    </article>
+
+
+     <!--FOOTER-->
+     <footer>
+        <hr>
+        <nav id="contact">
+            <a href ="mailto://u.f.a.ampofo@se21.qmul.ac.uk" target="_blank">Email</a> //
+            <a href ="https://www.linkedin.com/in/fiona-ampofo/" target="_blank">LinkedIn</a> 
+        </nav>
+
+        <p><i>Copyright Ⓒ 2022 Fiona Akyiaa Ampofo</i></p>
+        <hr>
+    </footer>
+    
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+/*stylings for headings; H2, H3, H4*/
+h1 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;  
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*******************/
+
+i {
+    font-style: italic;
+}
+
+body{
+    background-color: #6ac3ff;
+}
+
+/*heading styles*/
+header{ 
+    padding: 1em;
+    margin-bottom: 3em;
+    min-height: 7em;
+    background-color: whitesmoke;
+}
+
+header figure img{
+    float: left;
+}
+
+header h1{
+    text-align: center;
+    font-family: serif;
+    margin-top: 1em;
+    font-size: 35px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown{
+    float: right;
+    padding-top: 1.7em;
+}
+
+.menu-content{
+    position: absolute;
+    display: none;
+    right: 0;
+    width: 200px;
+    z-index: 1;
+}
+
+.menu-content li{
+    list-style-type: none;
+}
+
+.menu-content a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: monospace;
+    display: block;
+    color: white;
+}
+
+.menu-btn{
+    padding: 15px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.dropdown:hover .menu-content{
+    display:block;
+    background-color: rgb(101, 141, 250);
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.menu-content a:hover{
+    background-color: rgb(255, 168, 168);
+}
+/*************************/
+
+
+
+/**CONTENT STYLING**/
+
+/*each post*/
+.post{
+    padding: 4em;
+    margin: 2em 1em;
+    border: 5px solid rgb(4, 172, 214);
+}
+
+/*time appearance*/
+time{
+    display: block;
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+
+p{
+    font-size: 20px;
+}
+
+.entry_nav{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1em 0;
+}
+
+.entry_nav a{
+    padding: 1em 1em;
+}
+
+
+/*footer styling*/
+footer{
+    padding: 2em 0em;
+    background-color: aliceblue;
+    margin-top: 2em;
+}

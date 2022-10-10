@@ -1,0 +1,184 @@
+/*stylings for headings; H2, H3, H4*/
+h1 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-weight: bold;  
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*******************/
+
+i {
+    font-style: italic;
+}
+
+
+/*heading styles*/
+header{ 
+    padding: 1em;
+    margin-bottom: 3em;
+    min-height: 7em;
+    background-color: whitesmoke;
+}
+
+header figure img{
+    float: left;
+}
+
+header h1{
+    text-align: center;
+    font-family: serif;
+    margin-top: 1em;
+    font-size: 35px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown{
+    float: right;
+    padding-top: 1.7em;
+}
+
+.menu-content{
+    position: absolute;
+    display: none;
+    right: 0;
+    width: 200px;
+    z-index: 1;
+}
+
+.menu-content li{
+    list-style-type: none;
+}
+
+.menu-content a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: monospace;
+    display: block;
+    color: white;
+}
+
+.menu-btn{
+    padding: 15px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.dropdown:hover .menu-content{
+    display:block;
+    background-color: rgb(101, 141, 250);
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.menu-content a:hover{
+    background-color: rgb(255, 168, 168);
+}
+/*************************/
+
+
+
+/**SIXTH PAGE**/
+/**********BLOG***********/
+#pg-6{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#blog{
+    padding-bottom: 1em;
+}
+#pg-6 form{
+    padding: 3em;
+    border: 3pt double black;
+    background-color: rgb(114, 209, 200);
+    align-items: center;
+}
+
+#pg-6 form label{
+    font-size: 20px;
+}
+
+/*general styling for all form elements*/
+.data_2{
+    text-align: justify;
+    margin: 1em 0;
+    font-size: 20px;
+}
+
+/*styling form header*/
+form h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*style title bar*/
+.data_2 input{
+    height: 2em;
+    width: 100%;
+    font-size: 17px;
+}
+
+/*style country dropdown*/
+.data_2 select{
+    height: 2.5em;
+    width: 60%;
+    font-size: 15px;
+}
+
+/*style textarea*/
+.data_2 textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+}
+
+/*style buttons*/
+#blog-btn{
+    text-align: center;
+}
+
+button{
+    padding: 0.7em;
+    margin: 0.3em 0.7em;
+    font-size: 15px;
+    height: 2.5em;
+    background-color: #6ac3ff;
+    border: 2pt double navy;
+}
+/******************************/
+
+
+/*footer styling*/
+footer{
+    padding: 2em 0em;
+    background-color: aliceblue;
+    margin-top: 2em;
+}
+footer nav{
+    float: right;
+}

@@ -1,0 +1,123 @@
+/*stylings for headings; H2, H3, H4*/
+h1 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;  
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*******************/
+
+
+
+body{
+    background-color: #c7e9ff;
+}
+
+
+/*****header*****/
+header{ 
+    padding: 1em;
+    margin-bottom: 3em;
+    min-height: 7em;
+    background-color: whitesmoke;
+}
+
+header figure img{
+    float: left;
+}
+
+header h1{
+    text-align: center;
+    font-family: serif;
+    margin-top: 1em;
+    font-size: 35px;
+}
+
+i {
+    font-style: italic;
+}
+
+/**FORM STYLING**/
+form{
+    padding-bottom: 3em;
+    padding-left: 3em;
+    margin: 0 15%;
+    background-color: rgb(114, 209, 200);
+    border: 5pt double rgb(44, 44, 144);
+}
+
+form h3{
+    padding-top: 2em;
+    text-align: center;
+    text-decoration: underline;
+    padding-left: 0;
+}
+
+/*data inputs/components of form*/
+label{
+    padding: 0.5em 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.data_2{
+    text-align: justify;
+    height: 40px;
+    width: 90%;
+    margin: 45px 0px 25px 0;
+    font-size: 20px;
+}
+.data_2 input {
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid silver;
+}
+
+.data_2 input:focus{
+    border-color: #000000;
+    border-bottom-width: 2px;
+}
+
+#inner-btn{
+    text-align: center;
+}
+
+button{
+    height: 2.5em;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1pt solid silver;
+    background-color: rgb(6, 183, 183);
+}
+/*******************/
+
+/**LINK TO GO BACK**/
+#formLinks{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2em 5em;
+    margin-top: 2em;
+}
+
+#formLinks a{
+    padding: 0 1em;
+}

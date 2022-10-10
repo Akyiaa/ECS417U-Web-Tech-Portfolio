@@ -1,0 +1,170 @@
+/*stylings for headings; H2, H3, H4*/
+h1 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    /*extras*/
+    
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;  
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*******************/
+i {
+    font-style: italic;
+}
+
+
+body{
+    background-color: rgb(225, 238, 250);
+}
+
+/*heading styles*/
+header{ 
+    padding: 1em;
+    margin-bottom: 3em;
+    min-height: 7em;
+    background-color: whitesmoke;
+}
+
+header figure img{
+    float: left;
+}
+
+header h1{
+    text-align: center;
+    font-family: serif;
+    margin-top: 1em;
+    font-size: 35px;
+}
+
+
+/*welcome message area*/
+h2, #del_msg{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+/**FORM STYLING**/
+form{
+    padding: 2em;
+    background-color: rgb(114, 209, 200);
+    border: 4pt double rgb(65, 18, 255);
+    margin: 0 15%;
+}
+
+label{
+    padding: 0 0 0.7em 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*style title bar*/
+.data_2 input{
+    height: 2em;
+    width: 100%;
+    font-size: 17px;
+}
+
+/*style country dropdown*/
+.data_2 select{
+    height: 2.5em;
+    width: 60%;
+    font-size: 15px;
+}
+
+/*style textarea*/
+.data_2 textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+}
+
+/*buttons*/
+#blog-btn{
+    text-align: center;
+}
+
+button{
+    padding: 0.7em;
+    margin: 0.3em 0.7em;
+    font-size: 15px;
+    height: 2.5em;
+    background-color: #6ac3ff;
+    border: 2pt double navy;
+}
+
+/*****************************/
+
+
+
+/**view COMMENTS**/
+.cmt_post{
+    border: 5px solid rgb(126, 67, 194);
+    padding: 2em;
+    margin: 3em 1em 1em 1em;
+    background-color: #6ac3ff;
+}
+
+/*time appearance*/
+time{
+    font-size: 10pt;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: right;
+}
+
+p{
+    font-size: 20px;
+}
+
+.del{
+    text-align: right;
+    padding-right: 2em;
+}
+
+/******************************/
+
+
+/**FOOTER stylings**/
+footer{
+    padding: 2em 0em;
+    background-color: aliceblue;
+    margin-top: 2em;
+}
+
+footer a{
+    padding-left: 0.5em;
+}
+
+.log-out{
+    background-color: aliceblue;
+    margin: 0 30%;
+}
+
+#backPages{
+    text-align: center;
+    padding: 2em 5em;
+    background-color: #6ac3ff;
+}
+
+#backPages a{
+    padding: 0 0.5em;
+}
