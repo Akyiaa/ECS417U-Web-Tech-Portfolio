@@ -24,9 +24,9 @@ PHP files will have to be saved within the C:\xampp\htdocs folder
  
  
 ### 🍎MAC
- <br>XAMPP
+  1️⃣XAMPP
    <br>PHP files will have to be saved within the opt/lampp/htdocs folder
- <br>MAMP - M1 Mac
+ <br>2️⃣MAMP - M1 Mac
   <br>PHP files will have to be saved within the Applications/MAMP/htdocs folder.
 
 
