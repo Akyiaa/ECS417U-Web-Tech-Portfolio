@@ -14,7 +14,7 @@ MAMP: https://www.mamp.info/en/mamp/mac/
 ## 📥Installing XAMPP
 PHP requests in your browser will need to use the localhost domain 
 (http://127.0.0.1)
-Sample website link would look like: http://127.0.0.1/website.html
+Sample website link would look like: http://127.0.0.1/example.html
 <br>
 Where *phase2* is the folder the file index.php is saved in.
 <br>phase2 should be saved in the *htdocs folder.
@@ -24,9 +24,9 @@ PHP files will have to be saved within the C:\xampp\htdocs folder
  
  
 ### 🍎MAC
- XAMPP
+ <br>XAMPP
    <br>PHP files will have to be saved within the opt/lampp/htdocs folder
- MAMP - M1 Mac
+ <br>MAMP - M1 Mac
   <br>PHP files will have to be saved within the Applications/MAMP/htdocs folder.
 
 
