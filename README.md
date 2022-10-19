@@ -17,7 +17,7 @@ PHP requests in your browser will need to use the localhost domain
 Sample website link would look like: http://127.0.0.1/example.html
 <br>
 Where *phase2* is the folder the file index.php is saved in.
-<br>phase2 should be saved in the *htdocs folder.
+<br>phase2 should be saved in the *htdocs* folder.
 
 ### 📓Windows
 PHP files will have to be saved within the C:\xampp\htdocs folder
