@@ -34,3 +34,8 @@ PHP files will have to be saved within the C:\xampp\htdocs folder
 Open the XAMPP Control Panel and click the Start button for APache and SQL.
 <br> Enter the following to locate the home page:
 http://127.0.0.1/phase2/index.php
+
+## Login Details
+Username and Password are the same for:
+ normal user: test 
+ admin: admin
