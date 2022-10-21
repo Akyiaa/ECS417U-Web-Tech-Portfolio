@@ -37,5 +37,5 @@ http://127.0.0.1/phase2/index.php
 
 ## Login Details
 Username and Password are the same for:
- normal user: test 
- admin: admin
+<br> normal user: test 
+<br> admin: admin
