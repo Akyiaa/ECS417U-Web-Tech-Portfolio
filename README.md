@@ -1,4 +1,4 @@
-# WebTechCoursework-Portfolio
+# Fundamentals of Web Tech Portfolio
  Portfolio using HTML, CSS, JavaScript, SQL, PHP - Fundamentals of Web Tech Module Coursework
 
 ## Instructions - INSTALLING LAMP LOCALLY
